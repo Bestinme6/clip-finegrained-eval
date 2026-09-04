@@ -29,21 +29,12 @@
 
 ## 结果
 
-| 方法 | 准确率（ResNet训练十轮） |
+| 方法 | 准确率 |
 |------|--------------|
 | CLIP 零样本 | 47.20% |
 | CLIP 线性 Probe | 60.10% |
-| ResNet-18 微调 | 68.83% |
+| ResNet-18 微调 | 68.83%(epoch(10)_seed(42)) |
 
-## 项目结构
-```
-clip-finegrained-eval/
-├── README.md
-├── src/
-│   ├── clip-finegrained-eval.py
-└── results/
-    └── test_result.png
-```
 
 ## 作者
 - 姓名：赵术让
