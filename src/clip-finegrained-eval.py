@@ -17,9 +17,9 @@ import open_clip
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-DATA_ROOT = 'CUB_200_2011'  # 数据集路径
+DATA_ROOT = 'CUB_200_2011' 
 BATCH_SIZE = 64
-NUM_EPOCHS_RESNET = 10       # 为了快速演示，可适当增加
+NUM_EPOCHS_RESNET = 10      
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 #设置随机种子
