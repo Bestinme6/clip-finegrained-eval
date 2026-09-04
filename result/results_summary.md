@@ -9,7 +9,7 @@
 ## ResNet-18 微调
 - epoch(10),seed(42): 68.83%
 - epoch(15),seed(666):68.78%
-- epoch(15),seed(1234):68.78%
+- epoch(15),seed(1234):68.90%
 
 ## 结论
 1. CLIP 零样本在 CUB 上远低于监督模型。
