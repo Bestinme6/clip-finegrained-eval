@@ -29,7 +29,7 @@
 
 ## 结果
 
-| 方法 | 准确率 |
+| 方法 | 准确率（ResNet训练十轮） |
 |------|--------------|
 | CLIP 零样本 | 47.20% |
 | CLIP 线性 Probe | 60.10% |
@@ -42,7 +42,7 @@ clip-finegrained-eval/
 ├── src/
 │   ├── clip-finegrained-eval.py
 └── results/
-    └── error_cases.png
+    └── test_result.png
 ```
 
 ## 作者
